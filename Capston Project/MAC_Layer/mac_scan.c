@@ -344,16 +344,6 @@ void mac_scan_energy() {
 				}
 			} while (!time_out);
 
-			/*
-			 for (u = 0; u < 100; u++) {
-			 curr_ed = HWREG(0x40088660) & 0xFF;
-			 if (curr_ed > pcb->energy_list[i]) {
-			 pcb->energy_list[i] = curr_ed;
-			 UARTprintf(" channel : %d , rssi value  : %x \n", i,curr_ed);
-			 }
-			 }
-			 */
-
 			pcb->mac_state = MLME_IDLE;
 			UARTprintf("--------------------------------------------\n");
 		}
