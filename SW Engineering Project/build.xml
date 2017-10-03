@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<project name = "SE_TeamL_Markdown" default = "compile" basedir = "." xmlns:jacoco="antlib:org.jacoco.ant">
+
+	<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+		<classpath path="lib/jacocoant.jar"/>
+	</taskdef>
+
+	<!-- global properties for this build file -->
+	<property name = "source.dir" location = "src"/>
+	<property name = "build.dir" location = "classes"/>
+	<property name = "doc.dir" location = "doc"/>
+	<property name = "lib.dir" location = "lib"/>
+	<property name = "jar.dir" location = "dist"/>
+
+	<!-- path-->
+	<path id = "libpath">
+		<fileset dir = "${lib.dir}">
+			<include name = "*.jar"/>
+		</fileset>
+	</path>
+
+	<path id = "classpath">
+		<fileset dir = "${build.dir}">
+			<include name = "*.class"/>
+		</fileset>
+	</path>
+
+	<!-- target -->
+	<!-- init -->
+	<target name = "init" description = "setup project directories">
+		<mkdir dir = "${build.dir}"/>
+		<mkdir dir = "${doc.dir}"/>
+	</target>
+
+	<target name = "compile" depends = "init" description = "compile java source">
+		<javac srcdir = "${source.dir}" destdir = "${build.dir}" includeantruntime="false">
+			<classpath refid = "libpath"/>
+		</javac>
+	</target>
+
+	<target name = "test" depends = "compile" description = "testing">
+		<junit showoutput = "true" printsummary = "on" enabletestlistenerevents = "true" fork="true">
+			<classpath path = "classes" />
+			<classpath refid = "libpath" />
+		
+			<formatter type = "plain" usefile = "false" />
+
+			<test name = "edu.hgu.se.teaml.test.NodeTest" />
+		</junit>
+	</target>
+
+	<target name="cov-test" depends ="compile">
+		<jacoco:coverage destfile = "test/jacoco.exec" >
+			<junit showoutput="true" printsummary="on" enabletestlistenerevents="true" fork="true">
+				<classpath path="classes" />
+				<classpath refid = "libpath" />
+
+				<formatter type = "plain" usefile = "false" />
+
+				<test name = "edu.hgu.se.teaml.test.CommandHandlerTest"/>
+				<test name = "edu.hgu.se.teaml.test.InputFileCommandTest"/>
+				<test name = "edu.hgu.se.teaml.test.OutputFileCommandTest"/>
+				<test name = "edu.hgu.se.teaml.test.StyleCommandTest"/>
+				<test name = "edu.hgu.se.teaml.test.CommandTest"/>
+				<test name = "edu.hgu.se.teaml.test.CommandExceptionTest"/>
+				<test name = "edu.hgu.se.teaml.test.EscapeHandlerTest"/>
+				
+				<test name = "edu.hgu.se.teaml.test.HashHandlerTest"/>
+				<test name = "edu.hgu.se.teaml.test.HashObjectTest"/>
+				<test name = "edu.hgu.se.teaml.test.CommandExceptionTest"/>
+				<test name = "edu.hgu.se.teaml.test.CommandHandlerTest"/>
+				<test name = "edu.hgu.se.teaml.test.EscapeHandlerTest"/>
+				<test name = "edu.hgu.se.teaml.test.InputFileCommandTest"/>
+				<test name = "edu.hgu.se.teaml.test.OutputFileCommandTest"/>
+				<test name = "edu.hgu.se.teaml.test.StyleCommandTest"/>
+
+				<test name = "edu.hgu.se.teaml.test.PlainVisitorTest"/>				
+				
+				<test name = "edu.hgu.se.teaml.test.DocumentTest"/>
+				<test name = "edu.hgu.se.teaml.test.NodeTest"/>
+				<test name = "edu.hgu.se.teaml.test.HeaderTest"/>
+				<test name = "edu.hgu.se.teaml.test.AtxHeaderTest"/>
+				<test name = "edu.hgu.se.teaml.test.SetextHeaderTest"/>
+				<test name = "edu.hgu.se.teaml.test.CodeBlockTest"/>
+				<test name = "edu.hgu.se.teaml.test.ItemListTest"/>
+				<test name = "edu.hgu.se.teaml.test.UnorderedListTest"/>
+				<test name = "edu.hgu.se.teaml.test.OrderedListTest"/>
+				<test name = "edu.hgu.se.teaml.test.QuotedBlockTest"/>
+				<test name = "edu.hgu.se.teaml.test.BlockTest"/>
+				<test name = "edu.hgu.se.teaml.test.HrTest"/>
+				<test name = "edu.hgu.se.teaml.test.BrTest"/>
+				<test name = "edu.hgu.se.teaml.test.TokenTest"/>
+				<test name = "edu.hgu.se.teaml.test.ImageTest"/>
+				<test name = "edu.hgu.se.teaml.test.LinkTest"/>
+				<test name = "edu.hgu.se.teaml.test.CodeTest"/>
+				<test name = "edu.hgu.se.teaml.test.HTMLCodeTest"/>
+				<test name = "edu.hgu.se.teaml.test.PlainTextTest"/>
+				<test name = "edu.hgu.se.teaml.test.StyleTextTest"/>
+				<test name = "edu.hgu.se.teaml.test.EmphasisTest"/>
+				<test name = "edu.hgu.se.teaml.test.StrongTest"/>
+
+				<test name = "edu.hgu.se.teaml.test.HtmlValidatorTest"/>						
+				
+			</junit>
+		</jacoco:coverage>
+	</target>
+
+	<target name = "cov-report" depends = "cov-test">
+		<jacoco:report>
+			<executiondata>
+				<file file = "test/jacoco.exec"/>
+			</executiondata>
+
+			<structure name = "md2html">
+				<classfiles>
+					<fileset dir = "classes">
+						<exclude name = "**/test/"/>
+					</fileset>
+				</classfiles>
+				<sourcefiles>
+					<fileset dir = "src">
+						<exclude name = "**/test/"/>
+					</fileset>
+				</sourcefiles>
+			</structure>
+
+			<html destdir = "report" />
+		</jacoco:report>
+	</target>
+
+
+	<target name = "jar" depends = "compile" description = "generate the executable jar">
+		<jar basedir = "${build.dir}" includes ="**/*.class"  destfile = "md2html.jar">
+			<manifest>
+				<attribute name = "Main-Class" value = "edu.hgu.se.teaml.md2html"/>
+				<attribute name = "Class-Path" value = "lib/commons-lang3-3.5.jar lib/jtidy-r938.jar"/>
+			</manifest>
+		</jar>
+	</target>
+
+	<target name = "doc" description = "generate documentation">
+	</target> 
+
+	<target name = "clean" description = "clean up the workspace">
+		<delete dir = "${build.dir}"/>
+		<delete dir = "${doc.dir}"/>
+		<delete dir = "report" />
+		<delete file = "md2html.jar"/>
+		<delete file = "test/jacoco.exec"/>
+	</target>
+	
+</project>
