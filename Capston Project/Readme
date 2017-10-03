@@ -1,2 +1,9 @@
 FreeRTOS with 802.15.4 which our team made.
 
+Tech note.
+1. Customize FreeRTOS source code to CC2538 SOC
+   (FreeRTOS didn't support anymore CC2538 & CCS Tool)
+2. Make 802.15.4 Non Beacon enabled mode 
+   (Reference_ Freak 802.15.4)
+3. Simple Task Scheduliong in Coordiator.
+   (RFD doesn't need to use RTOS)
