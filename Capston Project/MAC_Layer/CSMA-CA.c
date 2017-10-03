@@ -2,7 +2,7 @@
  * CSMA-CA.c
  *
  *  Created on: 2016. 7. 23.
- *      Author: Moon, Jang Ho
+ *      Author: LEE, WON HEE
  */
 
 //CSMA-CA
@@ -37,12 +37,6 @@
 
 uint8 CCA(void);
 
-/*
- #define RFST 0x40088838
- #define RFCORE_SFR_RFST 0x40088838
- #define st(x) do { x } while (__LINE__ == -1)
- #define SSAMPLECCA() st(HWREG(RFST) = 0x000000DB;)
- */
 #define RFST            RFCORE_SFR_RFST
 #define SAMPLECCA()               st(HWREG(RFST) = 0x000000DB;)
 
@@ -85,10 +79,8 @@ void cca_handler(void) {
 
 	TimerIntClear(GPTIMER0_BASE, GPTIMER_TIMA_TIMEOUT);
 	a++;
-	//UARTprintf("cca_handler called : %d \n", a);
 }
 
-//device : SysCtrlClockGet()
 void csma_setup() {
 	SysCtrlPeripheralEnable(SYS_CTRL_PERIPH_GPT2);
 	TimerConfigure(GPTIMER2_BASE, GPTIMER_CFG_A_ONE_SHOT);
@@ -98,7 +90,6 @@ void csma_setup() {
 	TimerIntEnable(GPTIMER2_BASE, GPTIMER_TIMA_TIMEOUT);
 	IntEnable(INT_TIMER2A);
 	TimerEnable(GPTIMER2_BASE, GPTIMER_A);
-	//ISFLUSHRX();
 }
 
 void cca_setup() {
@@ -106,28 +97,21 @@ void cca_setup() {
 	TimerConfigure(GPTIMER0_BASE, GPTIMER_CFG_A_ONE_SHOT);
 	TimerLoadSet(GPTIMER0_BASE, GPTIMER_A, 10000);
 	TimerIntRegister(GPTIMER0_BASE, GPTIMER_A, cca_handler);
-	//UARTprintf("CCA handler registered..\n");
 	IntMasterEnable();
 	TimerIntEnable(GPTIMER0_BASE, GPTIMER_TIMA_TIMEOUT);
 	IntEnable(INT_TIMER0A);
 	TimerEnable(GPTIMER0_BASE, GPTIMER_A);
-	//ISFLUSHRX();
 }
 
 void csma_send(buffer_t *buf, uint8 ack_req, uint8 DSN) {
 
 	uint8 get = 0;
-	//UARTprintf("CSMA ROUTINE START\n");
 
 	for (NB = 0; NB < macMaxNB + 1;) {
-		//UARTprintf("\n---------- Transmit Try [%d] ----------\n", NB+1);
 		NB -= 1;
 		csma_time(); //calculating delay
 		csma_setup();
-		//UARTprintf("timer is defined\n");
 		get = HWREG(0x4008864c) & 0xff;
-		//UARTprintf("CCA : %x \n", get);
-		//UARTprintf("get&0x08 : %x \n", ((get & 0x10) >> 4));
 		a = 1;
 
 		while (!timeout) {
@@ -143,7 +127,6 @@ void csma_send(buffer_t *buf, uint8 ack_req, uint8 DSN) {
 
 				// Send frame with CCA. return FAILED if not successful
 				if (halRfTransmit() != SUCCESS) {
-					//UARTprintf("Data send failed\n");
 					break;
 				}
 				timeout = 0;
@@ -153,7 +136,6 @@ void csma_send(buffer_t *buf, uint8 ack_req, uint8 DSN) {
 			} else {
 			}
 		}
-		//UARTprintf("data_send : %d\n", data_send);
 		NB += 1;
 		BE += 1;
 		timeout = 0;
@@ -180,20 +162,14 @@ uint8 CCA(void) {
 	get_CCA = HWREG(0x4008864c) & 0xff;
 
 	while (cca_timeout != 1) {
-		//UARTprintf("rssi value: %x ,get CCA value: %x\n",HWREG(0x40088660) & 0xFF,HWREG(0x4008864c) & 0xff);
-		//UARTprintf("%d RSSI value [%d].\n", try + 1, HWREG(0x40088660) & 0xFF);
-		//UARTprintf("watting for the CCA_timer..\n");
 		get_CCA = HWREG(0x4008864c) & 0xff;
 
 		if (!(get_CCA & 0x10) >> 4) {
-			//UARTprintf("%d", get_CCA);
 			break;
 		} else
 			return (get_CCA & 0x10) >> 4;
-		//if(HWREG(0x40088660) & 0xFF > 0xfa)
-		//  return 0;
+
 	}
 
 	return (get_CCA & 0x10) >> 4;
-//return 0;
 }
