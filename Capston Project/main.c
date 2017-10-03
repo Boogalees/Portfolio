@@ -197,9 +197,9 @@ void main() {
 
 
 	mac_init();   // MAC init & set PANID & Short Addr
-    SCAN(); // Scan other coordinator
+    	SCAN(); // Scan other coordinator
 
-    // Send Beacon frame periodically
+    	// Send Beacon frame periodically
 	if (xTaskCreate(BS, (signed portCHAR *)"BS", 1000, NULL, 3,
 			NULL) == pdTRUE) {
 
