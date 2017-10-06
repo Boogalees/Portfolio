@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#86b4f9"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/Trash"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center"
+                android:layout_weight="2.67"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100L : "
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical|center">
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:text="-"
+                        android:id="@+id/minus100L"
+                        android:onClick="onCountBtnClicked" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:id="@+id/text100L"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textSize="30dp" />
+                    </LinearLayout>
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:text="+"
+                        android:id="@+id/plus100L"
+                        android:onClick="onCountBtnClicked" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="개"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  50L : "
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:text="-"
+                        android:id="@+id/minus50L"
+                        android:gravity="center"
+                        android:onClick="onCountBtnClicked" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:id="@+id/text50L"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textSize="30dp" />
+                    </LinearLayout>
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:text="+"
+                        android:id="@+id/plus50L"
+                        android:onClick="onCountBtnClicked" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="개"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  10L : "
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:text="-"
+                        android:id="@+id/minus10L"
+                        android:gravity="center"
+                        android:onClick="onCountBtnClicked" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:id="@+id/text10L"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textSize="30dp" />
+                    </LinearLayout>
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:text="+"
+                        android:id="@+id/plus10L"
+                        android:onClick="onCountBtnClicked" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="개"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical|center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="쓰레기 총량 : "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/textTotal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="L"
+                    android:layout_marginRight="10dp"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upload"
+            android:onClick="onCheckMapBtnClicked"
+            android:id="@+id/addUsingContentProviderButton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/calendarList"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

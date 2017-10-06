@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_98392d5fe982ea4e2cf65beceada7ded57977c19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.0.1_f990d1543d475c38a2221ce8ecbd3aa04528fcc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_c97c866609167641e7b90403647bf75a059b7383.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_6ffafda62d79628fa0c971f3d317d9a428cb4f7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_cba6fba12427950267ccbb0895a735d5ef00ab77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_4d051dd706904a84b881f18f2de7b54f189a0e3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_4bf96a2c43d8fce0f08b3972dcde1659e6dab562.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.baoyz.swipemenulistview-library-1.3.0_4927d6bf078ff851793cca0f78243dc382bbc441.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_732abb77e4dd130d5728a487f897541c61c98d10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_3c44b3199c59b9098240a12208960df7c5b51dac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_49a1aafeb36ce1b9485476b3acc39fab4a2ce569.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_e357ed7315efd923a7a95403b6c0e4edef8c46ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_b9c9be2eb71cec2c596e08489ed63a56255e407d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_a90cbce4c005d835428b31aeeaa26251adfed6f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_57886a2a3c257a89922889ccd04ccac4ec840d10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.1_b2032ba57c1e20fc4489ac505e46504dbf98b8e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-10.0.1_7f29497c009f5294b333904ea186f19eb9e4fe37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/okio-1.6.0_e8dd0d1543f9569a17d1296ad4be569c3efe5250.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_1644229d18bde133005f4c75ede3e31847ff1b9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_1fa892fdee572eaaa484dab326c4f408ed78deda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-10.0.1_7f29497c009f5294b333904ea186f19eb9e4fe37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_4d051dd706904a84b881f18f2de7b54f189a0e3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_00695ea60d9ff241d20c6d6bd19947e51fa2a6c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_c97c866609167641e7b90403647bf75a059b7383.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_6ffafda62d79628fa0c971f3d317d9a428cb4f7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="38d8ba1c244777917b6fbdb9d2143af47d88a55e">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/instant-run_ca870aa4968382eeae5e966486c176bbde8c4660.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.0.1_f990d1543d475c38a2221ce8ecbd3aa04528fcc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_98392d5fe982ea4e2cf65beceada7ded57977c19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a3715318c6b54584c1d1fe7831580990f49be634">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_6319f9c8a642263c0415ba37fa8c430103f53d18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_cba6fba12427950267ccbb0895a735d5ef00ab77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_399299fc26d798f9d3dbec39f693042024113826.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_4bf96a2c43d8fce0f08b3972dcde1659e6dab562.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_399299fc26d798f9d3dbec39f693042024113826.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_a90cbce4c005d835428b31aeeaa26251adfed6f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_e357ed7315efd923a7a95403b6c0e4edef8c46ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_3c44b3199c59b9098240a12208960df7c5b51dac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.baoyz.swipemenulistview-library-1.3.0_4927d6bf078ff851793cca0f78243dc382bbc441.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_49a1aafeb36ce1b9485476b3acc39fab4a2ce569.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_732abb77e4dd130d5728a487f897541c61c98d10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_00695ea60d9ff241d20c6d6bd19947e51fa2a6c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_b9c9be2eb71cec2c596e08489ed63a56255e407d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.1_b2032ba57c1e20fc4489ac505e46504dbf98b8e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_57886a2a3c257a89922889ccd04ccac4ec840d10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_1fa892fdee572eaaa484dab326c4f408ed78deda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_1644229d18bde133005f4c75ede3e31847ff1b9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KBPark/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/KBPark/Desktop/TrashMonitor_final/app/build/intermediates/pre-dexed/debug/okio-1.6.0_e8dd0d1543f9569a17d1296ad4be569c3efe5250.jar" />
+    </item>
+
+</items>
